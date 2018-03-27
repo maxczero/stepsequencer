@@ -6,7 +6,7 @@ boolean lastButtonState[6] = {LOW, LOW, LOW, LOW, LOW};
 boolean buttonState[6] = {LOW, LOW, LOW, LOW, LOW};
 boolean stepState [3][4] = {
   {false, true, false, false},
-  {true, false, true, false},
+  {true, false, true, true},
   {true, true, true, true}
 };
 
